@@ -1,0 +1,233 @@
+2021-11-20 00:32:08 [http-nio-10088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-20 00:32:09 [http-nio-10088-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-20 00:46:37 [main] INFO  c.y.m.MultiExportApplicationTests - Starting MultiExportApplicationTests using Java 1.8.0_291 on YUBJ1701 with PID 3923956 (started by yubj17 in C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export)
+2021-11-20 00:46:37 [main] INFO  c.y.m.MultiExportApplicationTests - No active profile set, falling back to default profiles: default
+2021-11-20 00:46:37 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-11-20 00:46:48 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-20 00:46:50 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-20 00:46:50 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-20 00:46:50 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-20 00:46:51 [main] INFO  c.y.m.MultiExportApplicationTests - Started MultiExportApplicationTests in 16.136 seconds (JVM running for 20.404)
+2021-11-20 00:46:52 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-20 01:23:42 [main] INFO  c.y.m.MultiExportApplicationTests - Starting MultiExportApplicationTests using Java 1.8.0_291 on YUBJ1701 with PID 3976736 (started by yubj17 in C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export)
+2021-11-20 01:23:42 [main] INFO  c.y.m.MultiExportApplicationTests - No active profile set, falling back to default profiles: default
+2021-11-20 01:23:42 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-11-20 01:23:47 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-20 01:23:49 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-20 01:23:49 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-20 01:23:49 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-20 01:23:49 [main] INFO  c.y.m.MultiExportApplicationTests - Started MultiExportApplicationTests in 8.718 seconds (JVM running for 11.385)
+2021-11-20 01:24:00 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-20 01:26:15 [main] INFO  c.y.m.MultiExportApplicationTests - Starting MultiExportApplicationTests using Java 1.8.0_291 on YUBJ1701 with PID 3979972 (started by yubj17 in C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export)
+2021-11-20 01:26:15 [main] INFO  c.y.m.MultiExportApplicationTests - No active profile set, falling back to default profiles: default
+2021-11-20 01:26:15 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-11-20 01:26:20 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-20 01:26:22 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-20 01:26:22 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-20 01:26:22 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-20 01:26:23 [main] INFO  c.y.m.MultiExportApplicationTests - Started MultiExportApplicationTests in 8.858 seconds (JVM running for 11.562)
+2021-11-20 01:26:23 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-20 01:29:21 [main] INFO  c.y.m.MultiExportApplicationTests - Starting MultiExportApplicationTests using Java 1.8.0_291 on YUBJ1701 with PID 3983956 (started by yubj17 in C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export)
+2021-11-20 01:29:21 [main] INFO  c.y.m.MultiExportApplicationTests - No active profile set, falling back to default profiles: default
+2021-11-20 01:29:21 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-11-20 01:29:26 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-20 01:29:28 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-20 01:29:28 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-20 01:29:28 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-20 01:29:28 [main] INFO  c.y.m.MultiExportApplicationTests - Started MultiExportApplicationTests in 7.878 seconds (JVM running for 10.438)
+2021-11-20 01:29:39 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-20 01:29:53 [main] INFO  c.y.m.MultiExportApplicationTests - Starting MultiExportApplicationTests using Java 1.8.0_291 on YUBJ1701 with PID 3985120 (started by yubj17 in C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export)
+2021-11-20 01:29:53 [main] INFO  c.y.m.MultiExportApplicationTests - No active profile set, falling back to default profiles: default
+2021-11-20 01:29:54 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-11-20 01:30:00 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-20 01:30:02 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-20 01:30:02 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-20 01:30:02 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-20 01:30:03 [main] INFO  c.y.m.MultiExportApplicationTests - Started MultiExportApplicationTests in 10.909 seconds (JVM running for 14.479)
+2021-11-20 01:30:03 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-20 01:33:52 [main] INFO  c.y.m.MultiExportApplicationTests - Starting MultiExportApplicationTests using Java 1.8.0_291 on YUBJ1701 with PID 3990896 (started by yubj17 in C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export)
+2021-11-20 01:33:52 [main] INFO  c.y.m.MultiExportApplicationTests - No active profile set, falling back to default profiles: default
+2021-11-20 01:33:52 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-11-20 01:33:57 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-20 01:33:59 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-20 01:33:59 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-20 01:33:59 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-20 01:33:59 [main] INFO  c.y.m.MultiExportApplicationTests - Started MultiExportApplicationTests in 8.053 seconds (JVM running for 10.663)
+2021-11-20 01:34:01 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-20 01:38:11 [main] INFO  c.y.m.MultiExportApplicationTests - Starting MultiExportApplicationTests using Java 1.8.0_291 on YUBJ1701 with PID 3996744 (started by yubj17 in C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export)
+2021-11-20 01:38:11 [main] INFO  c.y.m.MultiExportApplicationTests - No active profile set, falling back to default profiles: default
+2021-11-20 01:38:11 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-11-20 01:38:17 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-20 01:38:18 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-20 01:38:18 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-20 01:38:18 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-20 01:38:18 [main] INFO  c.y.m.MultiExportApplicationTests - Started MultiExportApplicationTests in 7.89 seconds (JVM running for 10.459)
+2021-11-20 01:38:19 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-20 01:46:02 [main] INFO  c.y.m.MultiExportApplicationTests - Starting MultiExportApplicationTests using Java 1.8.0_291 on YUBJ1701 with PID 4006316 (started by yubj17 in C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export)
+2021-11-20 01:46:02 [main] INFO  c.y.m.MultiExportApplicationTests - No active profile set, falling back to default profiles: default
+2021-11-20 01:46:02 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-11-20 01:46:07 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-20 01:46:09 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-20 01:46:09 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-20 01:46:09 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-20 01:46:10 [main] INFO  c.y.m.MultiExportApplicationTests - Started MultiExportApplicationTests in 7.908 seconds (JVM running for 10.385)
+2021-11-20 01:46:10 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-20 01:46:31 [main] INFO  c.y.m.MultiExportApplicationTests - Starting MultiExportApplicationTests using Java 1.8.0_291 on YUBJ1701 with PID 4007848 (started by yubj17 in C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export)
+2021-11-20 01:46:31 [main] INFO  c.y.m.MultiExportApplicationTests - No active profile set, falling back to default profiles: default
+2021-11-20 01:46:31 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-11-20 01:46:36 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-20 01:46:37 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-20 01:46:37 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-20 01:46:37 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-20 01:46:38 [main] INFO  c.y.m.MultiExportApplicationTests - Started MultiExportApplicationTests in 7.731 seconds (JVM running for 10.251)
+2021-11-20 01:46:48 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-20 01:47:05 [main] INFO  c.y.m.MultiExportApplicationTests - Starting MultiExportApplicationTests using Java 1.8.0_291 on YUBJ1701 with PID 4008636 (started by yubj17 in C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export)
+2021-11-20 01:47:05 [main] INFO  c.y.m.MultiExportApplicationTests - No active profile set, falling back to default profiles: default
+2021-11-20 01:47:05 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-11-20 01:47:10 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-20 01:47:12 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-20 01:47:12 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-20 01:47:12 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-20 01:47:12 [main] INFO  c.y.m.MultiExportApplicationTests - Started MultiExportApplicationTests in 7.782 seconds (JVM running for 10.292)
+2021-11-20 01:47:14 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-20 01:54:25 [main] INFO  c.y.m.MultiExportApplicationTests - Starting MultiExportApplicationTests using Java 1.8.0_291 on YUBJ1701 with PID 4019092 (started by yubj17 in C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export)
+2021-11-20 01:54:25 [main] INFO  c.y.m.MultiExportApplicationTests - No active profile set, falling back to default profiles: default
+2021-11-20 01:54:25 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-11-20 01:54:31 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-20 01:54:32 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-20 01:54:32 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-20 01:54:32 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-20 01:54:33 [main] INFO  c.y.m.MultiExportApplicationTests - Started MultiExportApplicationTests in 8.053 seconds (JVM running for 10.56)
+2021-11-20 01:54:33 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-20 01:54:33 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-20 01:54:34 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-20 01:54:40 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-11-20 01:54:40 [main] INFO  c.y.m.MultiExportApplication - Starting MultiExportApplication using Java 1.8.0_291 on YUBJ1701 with PID 4019380 (C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export\target\classes started by yubj17 in C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export)
+2021-11-20 01:54:40 [main] INFO  c.y.m.MultiExportApplication - No active profile set, falling back to default profiles: default
+2021-11-20 01:54:42 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10088"]
+2021-11-20 01:54:42 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-20 01:54:42 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-20 01:54:42 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-20 01:54:44 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-20 01:54:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10088"]
+2021-11-20 01:54:45 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-20 01:54:45 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-20 01:54:45 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-20 01:54:45 [main] INFO  c.y.m.MultiExportApplication - Started MultiExportApplication in 5.778 seconds (JVM running for 7.293)
+2021-11-20 01:54:58 [http-nio-10088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-20 01:54:58 [http-nio-10088-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-20 02:11:55 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-20 02:11:55 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-20 02:12:11 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-11-20 02:12:11 [main] INFO  c.y.m.MultiExportApplication - Starting MultiExportApplication using Java 1.8.0_291 on YUBJ1701 with PID 4051088 (C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export\target\classes started by yubj17 in C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export)
+2021-11-20 02:12:11 [main] INFO  c.y.m.MultiExportApplication - No active profile set, falling back to default profiles: default
+2021-11-20 02:12:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10088"]
+2021-11-20 02:12:13 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-20 02:12:13 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-20 02:12:13 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-20 02:12:15 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-20 02:12:16 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10088"]
+2021-11-20 02:12:16 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-20 02:12:16 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-20 02:12:16 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-20 02:12:16 [main] INFO  c.y.m.MultiExportApplication - Started MultiExportApplication in 6.092 seconds (JVM running for 7.658)
+2021-11-20 02:15:09 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2021-11-20 02:15:23 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-11-20 02:15:23 [main] INFO  c.y.m.MultiExportApplication - Starting MultiExportApplication using Java 1.8.0_291 on YUBJ1701 with PID 4039284 (C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export\target\classes started by yubj17 in C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export)
+2021-11-20 02:15:23 [main] INFO  c.y.m.MultiExportApplication - No active profile set, falling back to default profiles: default
+2021-11-20 02:15:25 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10088"]
+2021-11-20 02:15:25 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-20 02:15:25 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-20 02:15:25 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-20 02:15:27 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-20 02:15:28 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10088"]
+2021-11-20 02:15:28 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-20 02:15:28 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-20 02:15:28 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-20 02:15:28 [main] INFO  c.y.m.MultiExportApplication - Started MultiExportApplication in 5.983 seconds (JVM running for 7.538)
+2021-11-20 02:18:48 [http-nio-10088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-20 02:18:48 [http-nio-10088-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-20 02:43:29 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-20 02:43:29 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-20 02:43:43 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-11-20 02:43:43 [main] INFO  c.y.m.MultiExportApplication - Starting MultiExportApplication using Java 1.8.0_291 on YUBJ1701 with PID 4099452 (C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export\target\classes started by yubj17 in C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export)
+2021-11-20 02:43:43 [main] INFO  c.y.m.MultiExportApplication - No active profile set, falling back to default profiles: default
+2021-11-20 02:43:45 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10088"]
+2021-11-20 02:43:45 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-20 02:43:45 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-20 02:43:45 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-20 02:43:47 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-20 02:43:47 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10088"]
+2021-11-20 02:43:47 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-20 02:43:47 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-20 02:43:47 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-20 02:43:48 [main] INFO  c.y.m.MultiExportApplication - Started MultiExportApplication in 5.886 seconds (JVM running for 7.437)
+2021-11-20 02:44:27 [http-nio-10088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-20 02:44:28 [http-nio-10088-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-20 02:55:01 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-20 02:55:01 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-20 02:55:15 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-11-20 02:55:15 [main] INFO  c.y.m.MultiExportApplication - Starting MultiExportApplication using Java 1.8.0_291 on YUBJ1701 with PID 4116372 (C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export\target\classes started by yubj17 in C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export)
+2021-11-20 02:55:15 [main] INFO  c.y.m.MultiExportApplication - No active profile set, falling back to default profiles: default
+2021-11-20 02:55:18 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10088"]
+2021-11-20 02:55:18 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-20 02:55:18 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-20 02:55:18 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-20 02:55:20 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-20 02:55:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10088"]
+2021-11-20 02:55:20 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-20 02:55:20 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-20 02:55:20 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-20 02:55:21 [main] INFO  c.y.m.MultiExportApplication - Started MultiExportApplication in 6.114 seconds (JVM running for 7.738)
+2021-11-20 02:55:31 [http-nio-10088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-20 02:55:31 [http-nio-10088-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-20 19:03:30 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-20 19:03:30 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-20 19:03:45 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-11-20 19:03:45 [main] INFO  c.y.m.MultiExportApplication - Starting MultiExportApplication using Java 1.8.0_291 on YUBJ1701 with PID 5221672 (C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export\target\classes started by yubj17 in C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export)
+2021-11-20 19:03:45 [main] INFO  c.y.m.MultiExportApplication - No active profile set, falling back to default profiles: default
+2021-11-20 19:03:47 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10088"]
+2021-11-20 19:03:47 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-20 19:03:47 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-20 19:03:47 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-20 19:03:49 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-20 19:03:50 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10088"]
+2021-11-20 19:03:50 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-20 19:03:50 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-20 19:03:50 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-20 19:03:50 [main] INFO  c.y.m.MultiExportApplication - Started MultiExportApplication in 5.948 seconds (JVM running for 7.466)
+2021-11-20 19:04:33 [http-nio-10088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-20 19:04:33 [http-nio-10088-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-20 20:22:35 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-20 20:22:35 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-20 20:22:49 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-11-20 20:22:49 [main] INFO  c.y.m.MultiExportApplication - Starting MultiExportApplication using Java 1.8.0_291 on YUBJ1701 with PID 5336092 (C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export\target\classes started by yubj17 in C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export)
+2021-11-20 20:22:49 [main] INFO  c.y.m.MultiExportApplication - No active profile set, falling back to default profiles: default
+2021-11-20 20:22:51 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10088"]
+2021-11-20 20:22:51 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-20 20:22:51 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-20 20:22:51 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-20 20:22:53 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-20 20:22:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10088"]
+2021-11-20 20:22:53 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-20 20:22:53 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-20 20:22:53 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-20 20:22:54 [main] INFO  c.y.m.MultiExportApplication - Started MultiExportApplication in 6.055 seconds (JVM running for 7.685)
+2021-11-20 20:23:17 [http-nio-10088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-20 20:23:18 [http-nio-10088-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-20 23:44:34 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-11-20 23:44:34 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-11-20 23:44:43 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-11-20 23:44:43 [main] INFO  c.y.m.MultiExportApplication - Starting MultiExportApplication using Java 1.8.0_291 on YUBJ1701 with PID 5596632 (C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export\target\classes started by yubj17 in C:\Users\yubj17\Documents\szxc_backend-master-ab79073197d66758cd890c6e84ebaac1d0f6efe1\multi-export)
+2021-11-20 23:44:43 [main] INFO  c.y.m.MultiExportApplication - No active profile set, falling back to default profiles: default
+2021-11-20 23:44:46 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10088"]
+2021-11-20 23:44:46 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-11-20 23:44:46 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-20 23:44:46 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-11-20 23:44:48 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-11-20 23:44:49 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-10088"]
+2021-11-20 23:44:49 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-11-20 23:44:49 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-11-20 23:44:49 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-11-20 23:44:49 [main] INFO  c.y.m.MultiExportApplication - Started MultiExportApplication in 6.566 seconds (JVM running for 8.579)
+2021-11-20 23:53:00 [http-nio-10088-exec-8] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'

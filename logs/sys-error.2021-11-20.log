@@ -1,0 +1,1102 @@
+2021-11-20 00:32:12 [http-nio-10088-exec-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2844 millis. SELECT COUNT( 1 ) FROM user[]
+2021-11-20 00:32:15 [http-nio-10088-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.io.FileNotFoundException: E:\export\export.xlsx (另一个程序正在使用此文件，进程无法访问。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at cn.yubajin.multiexport.controller.UserController.export(UserController.java:136)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-20 00:33:00 [http-nio-10088-exec-3] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2594 millis. SELECT COUNT( 1 ) FROM user[]
+2021-11-20 00:34:24 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1047 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[380000,10000]
+2021-11-20 00:34:27 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1026 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[390000,10000]
+2021-11-20 00:34:29 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1067 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[400000,10000]
+2021-11-20 00:34:32 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1122 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[410000,10000]
+2021-11-20 00:34:35 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1169 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[420000,10000]
+2021-11-20 00:34:38 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1222 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[430000,10000]
+2021-11-20 00:34:41 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1176 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[440000,10000]
+2021-11-20 00:34:44 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1209 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[450000,10000]
+2021-11-20 00:34:47 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1253 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[460000,10000]
+2021-11-20 00:34:49 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1226 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[470000,10000]
+2021-11-20 00:34:52 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1252 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[480000,10000]
+2021-11-20 00:34:55 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1275 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[490000,10000]
+2021-11-20 00:34:58 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1309 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[500000,10000]
+2021-11-20 00:35:01 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1382 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[510000,10000]
+2021-11-20 00:35:04 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1367 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[520000,10000]
+2021-11-20 00:35:07 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1404 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[530000,10000]
+2021-11-20 00:35:10 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1405 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[540000,10000]
+2021-11-20 00:35:13 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1446 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[550000,10000]
+2021-11-20 00:35:17 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1483 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[560000,10000]
+2021-11-20 00:35:20 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1591 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[570000,10000]
+2021-11-20 00:35:23 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1517 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[580000,10000]
+2021-11-20 00:35:26 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1566 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[590000,10000]
+2021-11-20 00:35:29 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1568 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[600000,10000]
+2021-11-20 00:35:33 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1609 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[610000,10000]
+2021-11-20 00:35:36 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1663 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[620000,10000]
+2021-11-20 00:35:39 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1644 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[630000,10000]
+2021-11-20 00:35:43 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1762 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[640000,10000]
+2021-11-20 00:35:46 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1692 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[650000,10000]
+2021-11-20 00:35:49 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1740 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[660000,10000]
+2021-11-20 00:35:53 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1847 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[670000,10000]
+2021-11-20 00:35:57 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1938 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[680000,10000]
+2021-11-20 00:36:00 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1883 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[690000,10000]
+2021-11-20 00:36:04 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1832 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[700000,10000]
+2021-11-20 00:36:07 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1938 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[710000,10000]
+2021-11-20 00:36:11 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1875 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[720000,10000]
+2021-11-20 00:36:15 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1891 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[730000,10000]
+2021-11-20 00:36:18 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1924 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[740000,10000]
+2021-11-20 00:36:22 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1940 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[750000,10000]
+2021-11-20 00:36:25 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2004 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[760000,10000]
+2021-11-20 00:36:29 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2061 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[770000,10000]
+2021-11-20 00:36:33 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2019 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[780000,10000]
+2021-11-20 00:36:36 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2053 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[790000,10000]
+2021-11-20 00:36:40 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2067 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[800000,10000]
+2021-11-20 00:36:44 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2116 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[810000,10000]
+2021-11-20 00:36:48 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2189 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[820000,10000]
+2021-11-20 00:36:52 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2378 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[830000,10000]
+2021-11-20 00:36:56 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2363 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[840000,10000]
+2021-11-20 00:37:00 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2485 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[850000,10000]
+2021-11-20 00:37:04 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2456 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[860000,10000]
+2021-11-20 00:37:08 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2450 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[870000,10000]
+2021-11-20 00:37:13 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2507 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[880000,10000]
+2021-11-20 00:37:17 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2497 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[890000,10000]
+2021-11-20 00:37:21 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2531 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[900000,10000]
+2021-11-20 00:37:25 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2585 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[910000,10000]
+2021-11-20 00:37:29 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2584 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[920000,10000]
+2021-11-20 00:37:34 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2660 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[930000,10000]
+2021-11-20 00:37:38 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2655 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[940000,10000]
+2021-11-20 00:37:43 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2695 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[950000,10000]
+2021-11-20 00:37:47 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2751 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[960000,10000]
+2021-11-20 00:37:51 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2727 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[970000,10000]
+2021-11-20 00:37:56 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2774 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[980000,10000]
+2021-11-20 00:38:01 [pool-3-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2792 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[990000,10000]
+2021-11-20 01:55:00 [http-nio-10088-exec-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1777 millis. SELECT COUNT( 1 ) FROM user[]
+2021-11-20 01:56:23 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1006 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[380000,10000]
+2021-11-20 01:56:26 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1027 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[390000,10000]
+2021-11-20 01:56:28 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1057 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[400000,10000]
+2021-11-20 01:56:31 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1087 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[410000,10000]
+2021-11-20 01:56:34 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1103 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[420000,10000]
+2021-11-20 01:56:37 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1129 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[430000,10000]
+2021-11-20 01:56:39 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1157 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[440000,10000]
+2021-11-20 01:56:42 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1239 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[450000,10000]
+2021-11-20 01:56:45 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1209 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[460000,10000]
+2021-11-20 01:56:48 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1248 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[470000,10000]
+2021-11-20 01:56:51 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1276 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[480000,10000]
+2021-11-20 01:56:54 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1299 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[490000,10000]
+2021-11-20 01:56:57 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1304 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[500000,10000]
+2021-11-20 01:56:59 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1359 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[510000,10000]
+2021-11-20 01:57:02 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1356 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[520000,10000]
+2021-11-20 01:57:05 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1427 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[530000,10000]
+2021-11-20 01:57:09 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1557 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[540000,10000]
+2021-11-20 01:57:12 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1443 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[550000,10000]
+2021-11-20 01:57:15 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1485 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[560000,10000]
+2021-11-20 01:57:18 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1507 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[570000,10000]
+2021-11-20 01:57:21 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1525 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[580000,10000]
+2021-11-20 01:57:24 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1537 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[590000,10000]
+2021-11-20 01:57:27 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1561 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[600000,10000]
+2021-11-20 01:57:31 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1595 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[610000,10000]
+2021-11-20 01:57:34 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1627 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[620000,10000]
+2021-11-20 01:57:37 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1639 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[630000,10000]
+2021-11-20 01:57:40 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1719 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[640000,10000]
+2021-11-20 01:57:44 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1730 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[650000,10000]
+2021-11-20 01:57:47 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1723 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[660000,10000]
+2021-11-20 01:57:51 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1757 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[670000,10000]
+2021-11-20 01:57:54 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1766 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[680000,10000]
+2021-11-20 01:57:57 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1801 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[690000,10000]
+2021-11-20 01:58:01 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1828 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[700000,10000]
+2021-11-20 01:58:04 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1849 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[710000,10000]
+2021-11-20 01:58:08 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1866 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[720000,10000]
+2021-11-20 01:58:11 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1907 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[730000,10000]
+2021-11-20 01:58:15 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1932 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[740000,10000]
+2021-11-20 01:58:18 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1946 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[750000,10000]
+2021-11-20 01:58:22 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1981 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[760000,10000]
+2021-11-20 01:58:25 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2006 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[770000,10000]
+2021-11-20 01:58:29 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2009 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[780000,10000]
+2021-11-20 01:58:33 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2036 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[790000,10000]
+2021-11-20 01:58:36 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2071 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[800000,10000]
+2021-11-20 01:58:40 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2090 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[810000,10000]
+2021-11-20 01:58:44 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2144 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[820000,10000]
+2021-11-20 01:58:48 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2372 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[830000,10000]
+2021-11-20 01:58:52 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2376 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[840000,10000]
+2021-11-20 01:58:56 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2408 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[850000,10000]
+2021-11-20 01:59:00 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2424 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[860000,10000]
+2021-11-20 01:59:04 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2442 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[870000,10000]
+2021-11-20 01:59:08 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2469 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[880000,10000]
+2021-11-20 01:59:12 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2491 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[890000,10000]
+2021-11-20 01:59:16 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2510 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[900000,10000]
+2021-11-20 01:59:20 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2553 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[910000,10000]
+2021-11-20 01:59:24 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2578 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[920000,10000]
+2021-11-20 01:59:28 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2621 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[930000,10000]
+2021-11-20 01:59:33 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2663 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[940000,10000]
+2021-11-20 01:59:37 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2682 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[950000,10000]
+2021-11-20 01:59:41 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2717 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[960000,10000]
+2021-11-20 01:59:45 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2704 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[970000,10000]
+2021-11-20 01:59:50 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2759 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[980000,10000]
+2021-11-20 01:59:54 [pool-2-thread-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2778 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[990000,10000]
+2021-11-20 02:02:05 [http-nio-10088-exec-3] ERROR c.a.druid.filter.stat.StatFilter - slow sql 3082 millis. SELECT COUNT( 1 ) FROM user[]
+2021-11-20 02:02:16 [http-nio-10088-exec-3] ERROR c.a.druid.filter.stat.StatFilter - slow sql 10569 millis. SELECT  id,verifiedmobile,password,salt,paypassword,paypasswordsalt,locale,uri,nickname,title,tags,type,point,coin,smallavatar,mediumavatar,largeavatar,emailverified,setup,roles,promoted,promotedseq,promotedtime,locked,lockdeadline,consecutivepassworderrortimes,lastpasswordfailtime,logintime,loginip,loginsessionid,approvaltime,approvalstatus,newmessagenum,newnotificationnum,createdip,createdtime,updatedtime,invitecode,orgid,orgcode,registeredway,bindstatus,confirmtime,email,signatureimg  FROM user[]
+2021-11-20 02:04:58 [http-nio-10088-exec-5] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1759 millis. SELECT COUNT( 1 ) FROM user[]
+2021-11-20 02:05:00 [pool-4-thread-17] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1350 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[160000,10000]
+2021-11-20 02:05:00 [pool-4-thread-20] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1723 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[190000,10000]
+2021-11-20 02:05:00 [pool-4-thread-14] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1234 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[130000,10000]
+2021-11-20 02:05:05 [pool-4-thread-31] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1136 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[300000,10000]
+2021-11-20 02:05:06 [pool-4-thread-28] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1095 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[270000,10000]
+2021-11-20 02:05:06 [pool-4-thread-30] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1358 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[290000,10000]
+2021-11-20 02:05:06 [pool-4-thread-22] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1026 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[210000,10000]
+2021-11-20 02:05:09 [pool-4-thread-21] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1603 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[200000,10000]
+2021-11-20 02:05:09 [pool-4-thread-32] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2311 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[310000,10000]
+2021-11-20 02:05:09 [pool-4-thread-24] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1995 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[230000,10000]
+2021-11-20 02:05:09 [pool-4-thread-23] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2082 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[220000,10000]
+2021-11-20 02:05:10 [pool-4-thread-25] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2457 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[240000,10000]
+2021-11-20 02:05:10 [pool-4-thread-27] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2577 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[260000,10000]
+2021-11-20 02:05:10 [pool-4-thread-26] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2559 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[250000,10000]
+2021-11-20 02:05:11 [pool-4-thread-33] ERROR c.a.druid.filter.stat.StatFilter - slow sql 3067 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[320000,10000]
+2021-11-20 02:05:11 [pool-4-thread-34] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2939 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[330000,10000]
+2021-11-20 02:05:11 [pool-4-thread-35] ERROR c.a.druid.filter.stat.StatFilter - slow sql 3016 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[340000,10000]
+2021-11-20 02:05:11 [pool-4-thread-36] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2919 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[350000,10000]
+2021-11-20 02:05:11 [pool-4-thread-37] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2885 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[360000,10000]
+2021-11-20 02:05:12 [pool-4-thread-38] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2740 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[370000,10000]
+2021-11-20 02:05:12 [pool-4-thread-40] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2396 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[390000,10000]
+2021-11-20 02:05:12 [pool-4-thread-39] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2957 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[380000,10000]
+2021-11-20 02:05:17 [pool-4-thread-42] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1670 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[410000,10000]
+2021-11-20 02:05:17 [pool-4-thread-43] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1616 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[420000,10000]
+2021-11-20 02:05:17 [pool-4-thread-41] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1678 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[400000,10000]
+2021-11-20 02:05:19 [pool-4-thread-45] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2215 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[440000,10000]
+2021-11-20 02:05:19 [pool-4-thread-44] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2720 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[430000,10000]
+2021-11-20 02:05:22 [pool-4-thread-47] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2571 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[460000,10000]
+2021-11-20 02:05:22 [pool-4-thread-48] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2627 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[470000,10000]
+2021-11-20 02:05:24 [pool-4-thread-50] ERROR c.a.druid.filter.stat.StatFilter - slow sql 3326 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[490000,10000]
+2021-11-20 02:05:25 [pool-4-thread-52] ERROR c.a.druid.filter.stat.StatFilter - slow sql 3775 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[510000,10000]
+2021-11-20 02:05:25 [pool-4-thread-51] ERROR c.a.druid.filter.stat.StatFilter - slow sql 3714 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[500000,10000]
+2021-11-20 02:05:25 [pool-4-thread-53] ERROR c.a.druid.filter.stat.StatFilter - slow sql 3798 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[520000,10000]
+2021-11-20 02:05:25 [pool-4-thread-80] ERROR c.a.druid.filter.stat.StatFilter - slow sql 5160 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[790000,10000]
+2021-11-20 02:05:26 [pool-4-thread-55] ERROR c.a.druid.filter.stat.StatFilter - slow sql 3724 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[540000,10000]
+2021-11-20 02:05:26 [pool-4-thread-54] ERROR c.a.druid.filter.stat.StatFilter - slow sql 3796 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[530000,10000]
+2021-11-20 02:05:26 [pool-4-thread-56] ERROR c.a.druid.filter.stat.StatFilter - slow sql 3200 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[550000,10000]
+2021-11-20 02:05:26 [pool-4-thread-75] ERROR c.a.druid.filter.stat.StatFilter - slow sql 6355 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[740000,10000]
+2021-11-20 02:05:26 [pool-4-thread-58] ERROR c.a.druid.filter.stat.StatFilter - slow sql 3257 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[570000,10000]
+2021-11-20 02:05:29 [pool-4-thread-99] ERROR c.a.druid.filter.stat.StatFilter - slow sql 6095 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[980000,10000]
+2021-11-20 02:05:32 [pool-4-thread-60] ERROR c.a.druid.filter.stat.StatFilter - slow sql 4986 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[590000,10000]
+2021-11-20 02:05:32 [pool-4-thread-59] ERROR c.a.druid.filter.stat.StatFilter - slow sql 4992 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[580000,10000]
+2021-11-20 02:05:32 [pool-4-thread-61] ERROR c.a.druid.filter.stat.StatFilter - slow sql 4923 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[600000,10000]
+2021-11-20 02:05:32 [pool-4-thread-62] ERROR c.a.druid.filter.stat.StatFilter - slow sql 4939 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[610000,10000]
+2021-11-20 02:05:34 [pool-4-thread-100] ERROR c.a.druid.filter.stat.StatFilter - slow sql 5056 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[990000,10000]
+2021-11-20 02:05:32 [pool-4-thread-63] ERROR c.a.druid.filter.stat.StatFilter - slow sql 4942 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[620000,10000]
+2021-11-20 02:05:32 [pool-4-thread-64] ERROR c.a.druid.filter.stat.StatFilter - slow sql 4998 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[630000,10000]
+2021-11-20 02:05:32 [pool-4-thread-65] ERROR c.a.druid.filter.stat.StatFilter - slow sql 5009 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[640000,10000]
+2021-11-20 02:05:33 [pool-4-thread-98] ERROR c.a.druid.filter.stat.StatFilter - slow sql 4893 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[970000,10000]
+2021-11-20 02:05:37 [pool-4-thread-57] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2838 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[560000,10000]
+2021-11-20 02:05:38 [pool-4-thread-66] ERROR c.a.druid.filter.stat.StatFilter - slow sql 2907 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[650000,10000]
+2021-11-20 02:05:38 [pool-4-thread-67] ERROR c.a.druid.filter.stat.StatFilter - slow sql 3095 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[660000,10000]
+2021-11-20 02:05:39 [pool-4-thread-94] ERROR c.a.druid.filter.stat.StatFilter - slow sql 3832 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[930000,10000]
+2021-11-20 02:05:39 [pool-4-thread-97] ERROR c.a.druid.filter.stat.StatFilter - slow sql 4619 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[960000,10000]
+2021-11-20 02:05:46 [pool-4-thread-46] ERROR c.a.druid.filter.stat.StatFilter - slow sql 5907 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[450000,10000]
+2021-11-20 02:05:46 [pool-4-thread-49] ERROR c.a.druid.filter.stat.StatFilter - slow sql 5922 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[480000,10000]
+2021-11-20 02:05:48 [pool-4-thread-72] ERROR c.a.druid.filter.stat.StatFilter - slow sql 8298 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[710000,10000]
+2021-11-20 02:05:48 [pool-4-thread-70] ERROR c.a.druid.filter.stat.StatFilter - slow sql 8757 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[690000,10000]
+2021-11-20 02:05:49 [pool-4-thread-68] ERROR c.a.druid.filter.stat.StatFilter - slow sql 9220 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[670000,10000]
+2021-11-20 02:05:49 [pool-4-thread-69] ERROR c.a.druid.filter.stat.StatFilter - slow sql 9210 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[680000,10000]
+2021-11-20 02:05:49 [pool-4-thread-71] ERROR c.a.druid.filter.stat.StatFilter - slow sql 9348 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[700000,10000]
+2021-11-20 02:05:49 [pool-4-thread-73] ERROR c.a.druid.filter.stat.StatFilter - slow sql 9575 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[720000,10000]
+2021-11-20 02:05:49 [pool-4-thread-76] ERROR c.a.druid.filter.stat.StatFilter - slow sql 9647 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[750000,10000]
+2021-11-20 02:05:49 [pool-4-thread-74] ERROR c.a.druid.filter.stat.StatFilter - slow sql 9704 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[730000,10000]
+2021-11-20 02:05:50 [pool-4-thread-77] ERROR c.a.druid.filter.stat.StatFilter - slow sql 10129 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[760000,10000]
+2021-11-20 02:05:50 [pool-4-thread-78] ERROR c.a.druid.filter.stat.StatFilter - slow sql 9875 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[770000,10000]
+2021-11-20 02:05:50 [pool-4-thread-79] ERROR c.a.druid.filter.stat.StatFilter - slow sql 10142 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[780000,10000]
+2021-11-20 02:05:50 [pool-4-thread-81] ERROR c.a.druid.filter.stat.StatFilter - slow sql 9675 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[800000,10000]
+2021-11-20 02:05:50 [pool-4-thread-82] ERROR c.a.druid.filter.stat.StatFilter - slow sql 9867 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[810000,10000]
+2021-11-20 02:05:51 [pool-4-thread-83] ERROR c.a.druid.filter.stat.StatFilter - slow sql 6076 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[820000,10000]
+2021-11-20 02:05:52 [pool-4-thread-84] ERROR c.a.druid.filter.stat.StatFilter - slow sql 7162 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[830000,10000]
+2021-11-20 02:05:52 [pool-4-thread-85] ERROR c.a.druid.filter.stat.StatFilter - slow sql 7216 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[840000,10000]
+2021-11-20 02:05:52 [pool-4-thread-86] ERROR c.a.druid.filter.stat.StatFilter - slow sql 7227 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[850000,10000]
+2021-11-20 02:05:52 [pool-4-thread-89] ERROR c.a.druid.filter.stat.StatFilter - slow sql 7300 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[880000,10000]
+2021-11-20 02:05:53 [pool-4-thread-87] ERROR c.a.druid.filter.stat.StatFilter - slow sql 5179 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[860000,10000]
+2021-11-20 02:05:53 [pool-4-thread-88] ERROR c.a.druid.filter.stat.StatFilter - slow sql 5098 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[870000,10000]
+2021-11-20 02:05:58 [pool-4-thread-90] ERROR c.a.druid.filter.stat.StatFilter - slow sql 3994 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[890000,10000]
+2021-11-20 02:06:00 [pool-4-thread-91] ERROR c.a.druid.filter.stat.StatFilter - slow sql 4560 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[900000,10000]
+2021-11-20 02:06:01 [pool-4-thread-92] ERROR c.a.druid.filter.stat.StatFilter - slow sql 4505 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[910000,10000]
+2021-11-20 02:06:01 [pool-4-thread-95] ERROR c.a.druid.filter.stat.StatFilter - slow sql 4135 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[940000,10000]
+2021-11-20 02:06:01 [pool-4-thread-93] ERROR c.a.druid.filter.stat.StatFilter - slow sql 3736 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[920000,10000]
+2021-11-20 02:06:01 [pool-4-thread-96] ERROR c.a.druid.filter.stat.StatFilter - slow sql 3684 millis. select
+          id, verifiedMobile, password, salt, payPassword, payPasswordSalt, locale, uri, nickname, title, tags, type, point, coin, smallAvatar, mediumAvatar, largeAvatar, emailVerified, setup, roles, promoted, promotedSeq, promotedTime, locked, lockDeadline, consecutivePasswordErrorTimes, lastPasswordFailTime, loginTime, loginIp, loginSessionId, approvalTime, approvalStatus, newMessageNum, newNotificationNum, createdIp, createdTime, updatedTime, inviteCode, orgId, orgCode, registeredWay, bindStatus, confirmTime, email, signatureImg
+        from zhgh.user
+        limit ?, ?[950000,10000]
+2021-11-20 02:18:50 [http-nio-10088-exec-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 1777 millis. SELECT COUNT( 1 ) FROM user[]
+2021-11-20 02:19:00 [http-nio-10088-exec-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 9183 millis. SELECT  id,verifiedmobile,password,salt,paypassword,paypasswordsalt,locale,uri,nickname,title,tags,type,point,coin,smallavatar,mediumavatar,largeavatar,emailverified,setup,roles,promoted,promotedseq,promotedtime,locked,lockdeadline,consecutivepassworderrortimes,lastpasswordfailtime,logintime,loginip,loginsessionid,approvaltime,approvalstatus,newmessagenum,newnotificationnum,createdip,createdtime,updatedtime,invitecode,orgid,orgcode,registeredway,bindstatus,confirmtime,email,signatureimg  FROM user[]
+2021-11-20 02:44:31 [http-nio-10088-exec-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 3164 millis. SELECT COUNT( 1 ) FROM user[]
+2021-11-20 02:44:39 [http-nio-10088-exec-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 7926 millis. SELECT  id,verifiedmobile,password,salt,paypassword,paypasswordsalt,locale,uri,nickname,title,tags,type,point,coin,smallavatar,mediumavatar,largeavatar,emailverified,setup,roles,promoted,promotedseq,promotedtime,locked,lockdeadline,consecutivepassworderrortimes,lastpasswordfailtime,logintime,loginip,loginsessionid,approvaltime,approvalstatus,newmessagenum,newnotificationnum,createdip,createdtime,updatedtime,invitecode,orgid,orgcode,registeredway,bindstatus,confirmtime,email,signatureimg  FROM user[]
+2021-11-20 02:51:44 [http-nio-10088-exec-3] ERROR c.a.druid.filter.stat.StatFilter - slow sql 3064 millis. SELECT COUNT( 1 ) FROM user[]
+2021-11-20 02:51:51 [http-nio-10088-exec-3] ERROR c.a.druid.filter.stat.StatFilter - slow sql 7050 millis. SELECT  id,verifiedmobile,password,salt,paypassword,paypasswordsalt,locale,uri,nickname,title,tags,type,point,coin,smallavatar,mediumavatar,largeavatar,emailverified,setup,roles,promoted,promotedseq,promotedtime,locked,lockdeadline,consecutivepassworderrortimes,lastpasswordfailtime,logintime,loginip,loginsessionid,approvaltime,approvalstatus,newmessagenum,newnotificationnum,createdip,createdtime,updatedtime,invitecode,orgid,orgcode,registeredway,bindstatus,confirmtime,email,signatureimg  FROM user[]
+2021-11-20 02:55:35 [http-nio-10088-exec-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 3319 millis. SELECT COUNT( 1 ) FROM user[]
+2021-11-20 02:55:44 [http-nio-10088-exec-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 9568 millis. SELECT  id,verifiedmobile,password,salt,paypassword,paypasswordsalt,locale,uri,nickname,title,tags,type,point,coin,smallavatar,mediumavatar,largeavatar,emailverified,setup,roles,promoted,promotedseq,promotedtime,locked,lockdeadline,consecutivepassworderrortimes,lastpasswordfailtime,logintime,loginip,loginsessionid,approvaltime,approvalstatus,newmessagenum,newnotificationnum,createdip,createdtime,updatedtime,invitecode,orgid,orgcode,registeredway,bindstatus,confirmtime,email,signatureimg  FROM user[]
+2021-11-20 19:04:37 [http-nio-10088-exec-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 3184 millis. SELECT COUNT( 1 ) FROM user[]
+2021-11-20 19:04:47 [http-nio-10088-exec-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 9981 millis. SELECT  id,verifiedmobile,password,salt,paypassword,paypasswordsalt,locale,uri,nickname,title,tags,type,point,coin,smallavatar,mediumavatar,largeavatar,emailverified,setup,roles,promoted,promotedseq,promotedtime,locked,lockdeadline,consecutivepassworderrortimes,lastpasswordfailtime,logintime,loginip,loginsessionid,approvaltime,approvalstatus,newmessagenum,newnotificationnum,createdip,createdtime,updatedtime,invitecode,orgid,orgcode,registeredway,bindstatus,confirmtime,email,signatureimg  FROM user[]
+2021-11-20 20:23:21 [http-nio-10088-exec-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 3129 millis. SELECT COUNT( 1 ) FROM user[]
+2021-11-20 20:23:31 [http-nio-10088-exec-1] ERROR c.a.druid.filter.stat.StatFilter - slow sql 10305 millis. SELECT  id,verifiedmobile,password,salt,paypassword,paypasswordsalt,locale,uri,nickname,title,tags,type,point,coin,smallavatar,mediumavatar,largeavatar,emailverified,setup,roles,promoted,promotedseq,promotedtime,locked,lockdeadline,consecutivepassworderrortimes,lastpasswordfailtime,logintime,loginip,loginsessionid,approvaltime,approvalstatus,newmessagenum,newnotificationnum,createdip,createdtime,updatedtime,invitecode,orgid,orgcode,registeredway,bindstatus,confirmtime,email,signatureimg  FROM user[]
+2021-11-20 23:53:00 [http-nio-10088-exec-8] ERROR o.a.c.c.C.[.[.[/].[statViewServlet] - Servlet.service() for servlet [statViewServlet] in context with path [] threw exception
+java.lang.NullPointerException: null
+	at com.alibaba.druid.support.http.ResourceServlet.service(ResourceServlet.java:207)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:84)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-20 23:53:02 [http-nio-10088-exec-1] ERROR o.a.c.c.C.[.[.[/].[statViewServlet] - Servlet.service() for servlet [statViewServlet] in context with path [] threw exception
+java.lang.NullPointerException: null
+	at com.alibaba.druid.support.http.ResourceServlet.service(ResourceServlet.java:207)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:84)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-20 23:53:02 [http-nio-10088-exec-10] ERROR o.a.c.c.C.[.[.[/].[statViewServlet] - Servlet.service() for servlet [statViewServlet] in context with path [] threw exception
+java.lang.NullPointerException: null
+	at com.alibaba.druid.support.http.ResourceServlet.service(ResourceServlet.java:207)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:84)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-20 23:53:02 [http-nio-10088-exec-4] ERROR o.a.c.c.C.[.[.[/].[statViewServlet] - Servlet.service() for servlet [statViewServlet] in context with path [] threw exception
+java.lang.NullPointerException: null
+	at com.alibaba.druid.support.http.ResourceServlet.service(ResourceServlet.java:207)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:84)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-20 23:53:02 [http-nio-10088-exec-2] ERROR o.a.c.c.C.[.[.[/].[statViewServlet] - Servlet.service() for servlet [statViewServlet] in context with path [] threw exception
+java.lang.NullPointerException: null
+	at com.alibaba.druid.support.http.ResourceServlet.service(ResourceServlet.java:207)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:84)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
