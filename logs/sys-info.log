@@ -537,3 +537,4 @@
 2021-11-21 15:58:17 [main] INFO  c.y.m.MultiExportApplication - Started MultiExportApplication in 6.203 seconds (JVM running for 7.969)
 2021-11-21 15:58:22 [http-nio-10088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-11-21 15:58:23 [http-nio-10088-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-11-21 21:43:47 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
